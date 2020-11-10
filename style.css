@@ -4,16 +4,15 @@
     margin: 0px;
 }
 
-.outerDiv {
-    /* position: absolute; */
-    background-color: #e5e5e5;
-    height: auto;
-    padding: 2px 10% 25% 10%;
-    margin: 0px;
+body {
+    padding-left: 15%;
 }
 
-.banner {
-    margin: 2rem;
+.outerDiv {
+    background-color: #e5e5e5;
+    height: auto;
+    max-width: 78.1%;
+    margin: 1.5rem 0.5rem 15rem 0.5rem;
 }
 
 .navigation {
@@ -31,6 +30,7 @@
     margin-top: 0px;
     background-image: url("Assets/img1.jpg");
     background-color: rgba(9, 34, 54, 0.8);
+    background-repeat: no-repeat;
     background-blend-mode: darken;
     background-position: center;
     text-align: center;
@@ -56,6 +56,7 @@ button {
     border-color: #fff;
     border-width: 1px;
     color: #fff;
+    cursor: pointer;
 }
 
 .aboutTheBigBlueSection {
@@ -66,7 +67,7 @@ button {
 
 .aboutTheBigBlueSection h4 {
     color: rgb(11, 66, 110);
-    margin-bottom: 12px;
+    margin: 1.5rem 0rem 0.6rem 0rem;
     font-weight: bolder;
     font-size: 22px;
 }
@@ -94,16 +95,17 @@ button {
     font-size: 16px;
 }
 
-.CTA {
-    background: linear-gradient(to bottom right, rgb(6, 17, 114), blue);
+.footer {
+    display: flex;
+    background: radial-gradient(rgb(71, 73, 57), rgb(11, 56, 95));
+    align-items: center;
+    justify-content: center;
     height: 70px;
-    padding: 50px;
+    color: #fff;
+    /* color: rgb(4, 24, 41); */
 }
 
-body {
-    padding: 30px;
-}
-
-.CTA p {
-    text-align: center;
+.footer button {
+    padding: 5px 9px;
+    margin-left: 1rem;
 }
