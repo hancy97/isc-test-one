@@ -6,7 +6,7 @@
 
 .outerDiv {
     /* position: absolute; */
-    background-color: #aeaeae;
+    background-color: #e5e5e5;
     height: auto;
     padding: 2px 10% 25% 10%;
     margin: 0px;
@@ -58,6 +58,42 @@ button {
     color: #fff;
 }
 
+.aboutTheBigBlueSection {
+    text-align: center;
+    margin-bottom: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.aboutTheBigBlueSection h4 {
+    color: rgb(11, 66, 110);
+    margin-bottom: 12px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.aboutTheBigBlueSection p {
+    font-size: 17px;
+    font-weight: 50%;
+    line-height: 24px;
+}
+
+.ourProcessSection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourProcessSection img {
+    width: 15rem;
+    margin-left: 3.5rem;
+}
+
+.divAfterOurProcessSection li {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    font-size: 16px;
+}
+
 .CTA {
     background: linear-gradient(to bottom right, rgb(6, 17, 114), blue);
     height: 70px;
@@ -68,24 +104,6 @@ body {
     padding: 30px;
 }
 
-.swim {
-    padding-left: 30%;
-    width: 30%;
-    height: 30%;
-    position: relative;
-    top: 50px;
-    left: -50px;
-}
-
 .CTA p {
     text-align: center;
-}
-
-.aboutTheBigBlueSection {
-    text-align: center;
-}
-
-.aboutTheBigBlueSection h4 {
-    color: rgb(11, 66, 110);
-    margin-bottom: 12px;
 }
